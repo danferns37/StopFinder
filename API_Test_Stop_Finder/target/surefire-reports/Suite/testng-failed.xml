@@ -5,7 +5,7 @@
     <classes>
       <class name="com.qachallenge.suite.RestAssured.Stop_Finder">
         <methods>
-          <include name="verifylocationname"/>
+          <include name="verifystopsmodes"/>
           <include name="setup"/>
         </methods>
       </class> <!-- com.qachallenge.suite.RestAssured.Stop_Finder -->

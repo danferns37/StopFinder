@@ -2,24 +2,24 @@
 <testng-results total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2018-10-13T06:33:49Z" name="Suite" finished-at="2018-10-13T06:34:01Z" duration-ms="11562">
+  <suite started-at="2018-10-13T10:39:08Z" name="Suite" finished-at="2018-10-13T10:39:17Z" duration-ms="8625">
     <groups>
     </groups>
-    <test started-at="2018-10-13T06:33:49Z" name="Test" finished-at="2018-10-13T06:34:01Z" duration-ms="11562">
+    <test started-at="2018-10-13T10:39:08Z" name="Test" finished-at="2018-10-13T10:39:17Z" duration-ms="8625">
       <class name="com.qachallenge.suite.RestAssured.Stop_Finder">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qachallenge.suite.RestAssured.Stop_Finder@294425a7]" started-at="2018-10-13T17:33:49Z" name="setup" finished-at="2018-10-13T17:33:52Z" duration-ms="2451" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qachallenge.suite.RestAssured.Stop_Finder@294425a7]" started-at="2018-10-13T21:39:08Z" name="setup" finished-at="2018-10-13T21:39:10Z" duration-ms="1379" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifylocationname()[pri:0, instance:com.qachallenge.suite.RestAssured.Stop_Finder@294425a7]" started-at="2018-10-13T17:33:52Z" name="verifylocationname" finished-at="2018-10-13T17:34:00Z" duration-ms="7925" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifylocationname -->
-        <test-method signature="verifystatus()[pri:0, instance:com.qachallenge.suite.RestAssured.Stop_Finder@294425a7]" started-at="2018-10-13T17:34:00Z" name="verifystatus" finished-at="2018-10-13T17:34:00Z" duration-ms="544" status="PASS">
+        <test-method signature="verifystatus()[pri:0, instance:com.qachallenge.suite.RestAssured.Stop_Finder@294425a7]" started-at="2018-10-13T21:39:10Z" name="verifystatus" finished-at="2018-10-13T21:39:15Z" duration-ms="4940" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifystatus -->
-        <test-method signature="whenValidateResponseTime_thenSuccess()[pri:0, instance:com.qachallenge.suite.RestAssured.Stop_Finder@294425a7]" started-at="2018-10-13T17:34:00Z" name="whenValidateResponseTime_thenSuccess" finished-at="2018-10-13T17:34:01Z" duration-ms="608" status="PASS">
+        <test-method signature="verifystopsmodes()[pri:0, instance:com.qachallenge.suite.RestAssured.Stop_Finder@294425a7]" started-at="2018-10-13T21:39:15Z" name="verifystopsmodes" finished-at="2018-10-13T21:39:17Z" duration-ms="1890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifystopsmodes -->
+        <test-method signature="whenValidateResponseTime_thenSuccess()[pri:0, instance:com.qachallenge.suite.RestAssured.Stop_Finder@294425a7]" started-at="2018-10-13T21:39:17Z" name="whenValidateResponseTime_thenSuccess" finished-at="2018-10-13T21:39:17Z" duration-ms="365" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- whenValidateResponseTime_thenSuccess -->

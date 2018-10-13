@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="9.065" tests="3" errors="0" skipped="0" failures="0">
+<testsuite name="TestSuite" time="7.196" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="10.0.2+13"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\daniel\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5748715472813873003.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\daniel\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4086890230367008399.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk-10.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\TXE Components\TCS\;C:\Program Files\Intel\TXE Components\TCS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\TXE Components\DAL\;C:\Program Files (x86)\Intel\TXE Components\DAL\;C:\Program Files\Intel\TXE Components\IPT\;C:\Program Files (x86)\Intel\TXE Components\IPT\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\HP\LeanFT\bin;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Brackets\command;C:\Program Files (x86)\Git\cmd;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\GitExtensions\;C:\Program Files\nodejs\;C:\Program Files\Microsoft VS Code\bin;C:\Users\daniel\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Microsoft VS Code\bin;C:\Users\daniel\Desktop\apache-maven-3.5.2-bin\apache-maven-3.5.2\bin;C:\Users\daniel\AppData\Local\Programs\Fiddler;C:\Program Files\Java\jdk-10.0.1\bin;C:\Users\daniel\Desktop\apache-maven-3.5.2-bin\apache-maven-3.5.2\bin;C:\Users\daniel\AppData\Roaming\npm;."/>
     <property name="jdk.debug" value="release"/>
@@ -61,7 +61,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="verifylocationname" classname="com.qachallenge.suite.RestAssured.Stop_Finder" time="7.927"/>
-  <testcase name="verifystatus" classname="com.qachallenge.suite.RestAssured.Stop_Finder" time="0.542"/>
-  <testcase name="whenValidateResponseTime_thenSuccess" classname="com.qachallenge.suite.RestAssured.Stop_Finder" time="0.596"/>
+  <testcase name="verifystatus" classname="com.qachallenge.suite.RestAssured.Stop_Finder" time="4.945"/>
+  <testcase name="verifystopsmodes" classname="com.qachallenge.suite.RestAssured.Stop_Finder" time="1.886"/>
+  <testcase name="whenValidateResponseTime_thenSuccess" classname="com.qachallenge.suite.RestAssured.Stop_Finder" time="0.365"/>
 </testsuite>

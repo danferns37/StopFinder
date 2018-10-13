@@ -54,7 +54,7 @@ public class Stop_Finder {
 
 	
 	@Test
-	public void verifylocationname() throws InterruptedException {
+	public void verifystopsmodes() throws InterruptedException {
 	
 		given()		
 		.log().all()
@@ -63,9 +63,9 @@ public class Stop_Finder {
 		.get("/web/XML_STOPFINDER_REQUEST?TfNSWSF=true&language=en%20&name_sf=Wynyard%20Station&outputFormat=rapidJSON&type_sf=any&version=10.2.2.48")
 		.then()
 			.statusCode(200)
-			.and().body("locations.name", hasItems("Wynyard Station, Sydney"));
-	
-		
+			.and().body("locations.name", hasItems("Wynyard Station, Sydney")).and()
+			.body("locations[0].assignedStops[0].name", equalTo("Wynyard Station")).and()
+		.body("locations[0].assignedStops[0].modes",hasItems(1,5,11));
 	}
 
 	
