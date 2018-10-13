@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-10-12T12:36:14Z" name="Suite" finished-at="2018-10-12T12:36:22Z" duration-ms="8006">
+    <groups>
+    </groups>
+    <test started-at="2018-10-12T12:36:14Z" name="Test" finished-at="2018-10-12T12:36:22Z" duration-ms="8006">
+      <class name="com.qachallenge.suite.RestAssured.Stop_Finder">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qachallenge.suite.RestAssured.Stop_Finder@a514af7]" started-at="2018-10-12T23:36:14Z" name="setup" finished-at="2018-10-12T23:36:16Z" duration-ms="1458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifylocationname()[pri:0, instance:com.qachallenge.suite.RestAssured.Stop_Finder@a514af7]" started-at="2018-10-12T23:36:16Z" name="verifylocationname" finished-at="2018-10-12T23:36:21Z" duration-ms="5520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifylocationname -->
+        <test-method signature="verifystatus()[pri:0, instance:com.qachallenge.suite.RestAssured.Stop_Finder@a514af7]" started-at="2018-10-12T23:36:21Z" name="verifystatus" finished-at="2018-10-12T23:36:22Z" duration-ms="497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifystatus -->
+        <test-method signature="whenValidateResponseTime_thenSuccess()[pri:0, instance:com.qachallenge.suite.RestAssured.Stop_Finder@a514af7]" started-at="2018-10-12T23:36:22Z" name="whenValidateResponseTime_thenSuccess" finished-at="2018-10-12T23:36:22Z" duration-ms="479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- whenValidateResponseTime_thenSuccess -->
+      </class> <!-- com.qachallenge.suite.RestAssured.Stop_Finder -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
