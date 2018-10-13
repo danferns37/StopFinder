@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="6.502" tests="3" errors="0" skipped="0" failures="0">
+<testsuite name="TestSuite" time="9.065" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="10.0.2+13"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-10.0.2\bin"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\daniel\eclipse-workspace\API_Test_Stop_Finder"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\StopFinderAssignment\StopFinder\API_Test_Stop_Finder"/>
     <property name="java.vm.vendor" value="&quot;Oracle Corporation&quot;"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="user.country" value="AU"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\daniel\eclipse-workspace\API_Test_Stop_Finder"/>
+    <property name="user.dir" value="C:\StopFinderAssignment\StopFinder\API_Test_Stop_Finder"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="java.runtime.version" value="10.0.2+13"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\daniel\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf862447100110400578.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\daniel\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5748715472813873003.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk-10.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\TXE Components\TCS\;C:\Program Files\Intel\TXE Components\TCS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\TXE Components\DAL\;C:\Program Files (x86)\Intel\TXE Components\DAL\;C:\Program Files\Intel\TXE Components\IPT\;C:\Program Files (x86)\Intel\TXE Components\IPT\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\HP\LeanFT\bin;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Brackets\command;C:\Program Files (x86)\Git\cmd;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\GitExtensions\;C:\Program Files\nodejs\;C:\Program Files\Microsoft VS Code\bin;C:\Users\daniel\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Microsoft VS Code\bin;C:\Users\daniel\Desktop\apache-maven-3.5.2-bin\apache-maven-3.5.2\bin;C:\Users\daniel\AppData\Local\Programs\Fiddler;C:\Program Files\Java\jdk-10.0.1\bin;C:\Users\daniel\Desktop\apache-maven-3.5.2-bin\apache-maven-3.5.2\bin;C:\Users\daniel\AppData\Roaming\npm;."/>
     <property name="jdk.debug" value="release"/>
@@ -51,7 +51,7 @@
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.version" value="10.0.2"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="C:\Users\daniel\eclipse-workspace\API_Test_Stop_Finder\EMBEDDED"/>
+    <property name="maven.home" value="C:\StopFinderAssignment\StopFinder\API_Test_Stop_Finder\EMBEDDED"/>
     <property name="file.separator" value="\"/>
     <property name="java.version.date" value="2018-07-17"/>
     <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
@@ -61,7 +61,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="verifylocationname" classname="com.qachallenge.suite.RestAssured.Stop_Finder" time="5.523"/>
-  <testcase name="verifystatus" classname="com.qachallenge.suite.RestAssured.Stop_Finder" time="0.504"/>
-  <testcase name="whenValidateResponseTime_thenSuccess" classname="com.qachallenge.suite.RestAssured.Stop_Finder" time="0.475"/>
+  <testcase name="verifylocationname" classname="com.qachallenge.suite.RestAssured.Stop_Finder" time="7.927"/>
+  <testcase name="verifystatus" classname="com.qachallenge.suite.RestAssured.Stop_Finder" time="0.542"/>
+  <testcase name="whenValidateResponseTime_thenSuccess" classname="com.qachallenge.suite.RestAssured.Stop_Finder" time="0.596"/>
 </testsuite>
