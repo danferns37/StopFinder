@@ -35,6 +35,13 @@
     <version>3.0.0</version>
     <scope>build</scope>
 </dependency>
+<!-- https://mvnrepository.com/artifact/org.testng/testng -->        
+  <dependency>
+   <groupId>org.testng</groupId>
+   <artifactId>testng</artifactId>
+   <version>6.14.3</version>
+   <scope>build</scope>
+ </dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
@@ -59,12 +66,7 @@
             <version>2.9.0</version>
             <scope>test</scope>
         </dependency>
-<dependency>
-  <groupId>org.testng</groupId>
-  <artifactId>testng</artifactId>
-  <version>6.8</version>
-  <scope>test</scope>
-</dependency>
+
     <!-- Java 6 = JAX-B Version 2.0   -->
 <!-- Java 7 = JAX-B Version 2.2.3 -->
 <!-- Java 8 = JAX-B Version 2.2.8 -->
