@@ -22,7 +22,7 @@ public class CommonFunctions<T> {
 		    GsonBuilder builder = new GsonBuilder(); 
 		    Gson gson = builder.create(); 
 		    File f = new File(json);
-		    System.out.println("f.getAbsolutePath() = " + f.getAbsolutePath());
+		  //  System.out.println("f.getAbsolutePath() = " + f.getAbsolutePath());
 		    ClassLoader classLoader = Thread.currentThread().getContextClassLoader();
 		    URL resource = classLoader.getResource(f.getAbsolutePath());
 		    BufferedReader bufferedReader = new BufferedReader(
@@ -47,7 +47,7 @@ public class CommonFunctions<T> {
 		    GsonBuilder builder = new GsonBuilder(); 
 		    Gson gson = builder.create(); 
 		    File f = new File(json);
-		    System.out.println("f.getAbsolutePath() = " + f.getAbsolutePath());
+		//    System.out.println("f.getAbsolutePath() = " + f.getAbsolutePath());
 		    ClassLoader classLoader = Thread.currentThread().getContextClassLoader();
 		    URL resource = classLoader.getResource(f.getAbsolutePath());
 		    BufferedReader bufferedReader = new BufferedReader(
@@ -56,8 +56,8 @@ public class CommonFunctions<T> {
 		
 		    
 		    APIList obj = gson.fromJson(bufferedReader, APIList.class); 
-		    System.out.println("obj.stopFinder"+obj.getClass());
-		   System.out.println("obj.stopFinder"+obj.stopFinder);
+		  //  System.out.println("obj.stopFinder"+obj.getClass());
+		   //System.out.println("obj.stopFinder"+obj.stopFinder);
 		    return obj; 
 		    
 		    
